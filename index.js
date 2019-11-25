@@ -29,34 +29,40 @@
 // console.log(i);
 // console.log(typeof i)
 
+// let carGreen = {
+//     color: 'green'
+// }
+
+// let carRed = {
+//     color: 'red'
+// }
+
+// carGreen.color = 'red'
+
+// console.log(typeof carGreen.color)
+// console.log(carGreen.color)
+// console.log(typeof carRed.color)
+// console.log(carRed.color)
+
 
 let car = {
     color: 'green',
-    maxSpeed: 250,
-    audio: {
-        brand: 'Sony',
-        speakers: 12
-    }
 };
 
-car.color = 'red';
+let car2 = {
+    color: 'red',
+};
 
-console.log(typeof car.audio);
-console.log(car.audio);
 
-let carGreen = {
-    color: 'green'
+function colorReset(theCar) {
+    theCar.color = 'black';
 }
 
-let carRed = {
-    color: 'red'
-}
+console.log("Car: " + car.color);
+console.log("Car2: " + car2.color);
 
-carGreen.color = 'red'
+colorReset(car)
 
-console.log(typeof carGreen.color)
-console.log(carGreen.color)
-console.log(typeof carRed.color)
-console.log(carRed.color)
+
 
 
