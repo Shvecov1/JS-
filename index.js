@@ -45,23 +45,41 @@
 // console.log(carRed.color)
 
 
+// let car = {
+//     color: 'red',
+// };
+
+// let car2 = {
+//     color: 'green',
+// };
+
+// colorChenge(car)
+
+
+// function colorChenge(theCar) {
+//     theCar.color = 'yellow'
+// }
+
+// console.log("Car: " + car.color);
+// console.log("Car2: " + car2.color);
+
 let car = {
-    color: 'red',
+    speed: '250'
 };
 
-let car2 = {
-    color: 'green',
-};
+console.log("Скорость была: " + car.speed);
 
-colorChenge(car)
+speedChenge(car)
 
-
-function colorChenge(theCar) {
-    theCar.color = 'yellow'
+function speedChenge(speedChenge1) {
+    speedChenge1.speed = '350'   
 }
 
-console.log("Car: " + car.color);
-console.log("Car2: " + car2.color);
+
+console.log("Скорость стала: " + car.speed);
+
+
+
 
 
 
