@@ -82,10 +82,12 @@ let bodyIndex = {
     growth: '180'
 }
 
+summa(bodyIndex)
 
-
-let addition = (Number(bodyIndex.wight) + Number(bodyIndex.growth) * 2);
-console.log("Ваш индек тела = " + addition)
+function summa(index) {
+    bodyIndex = Number(bodyIndex.wight) + Number(bodyIndex.growth) * 2;
+    console.log("Ваш индекс тела = " + bodyIndex)
+}
 
 
 
