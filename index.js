@@ -46,22 +46,23 @@
 
 
 let car = {
-    color: 'green',
-};
-
-let car2 = {
     color: 'red',
 };
 
+let car2 = {
+    color: 'green',
+};
 
-function colorReset(theCar) {
-    theCar.color = 'black';
+colorChenge(car)
+
+
+function colorChenge(theCar) {
+    theCar.color = 'yellow'
 }
 
 console.log("Car: " + car.color);
 console.log("Car2: " + car2.color);
 
-colorReset(car)
 
 
 
