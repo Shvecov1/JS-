@@ -63,21 +63,29 @@
 // console.log("Car: " + car.color);
 // console.log("Car2: " + car2.color);
 
-let car = {
-    speed: '250'
-};
+// let car = {
+//     speed: '250'
+// };
 
-console.log("Скорость была: " + car.speed);
+// console.log("Скорость была: " + car.speed);
 
-speedChenge(car)
+// speedChenge(car)
 
-function speedChenge(speedChenge1) {
-    speedChenge1.speed = '350'   
+// function speedChenge(speedChenge1) {
+//     car.speed = '350'   
+// }
+
+// console.log("Скорость стала: " + car.speed);
+
+let bodyIndex = {
+    wight: '50',
+    growth: '180'
 }
 
 
-console.log("Скорость стала: " + car.speed);
 
+let addition = (Number(bodyIndex.wight) + Number(bodyIndex.growth) * 2);
+console.log("Ваш индек тела = " + addition)
 
 
 
