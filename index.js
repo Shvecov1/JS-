@@ -77,17 +77,32 @@
 
 // console.log("Скорость стала: " + car.speed);
 
-let bodyIndex = {
-    wight: '50',
-    growth: '180'
+// let wight = 50;
+// let growth = 180;
+
+
+// function summa(wight, growth) {
+//     let addiction = wight + growth * 2;
+//     console.log(addiction)
+// }
+// summa(wight, growth)
+
+let input = document.getElementById("input")
+let input2 = document.getElementById("input2")
+let button = document.getElementById("btn")
+let otvet = document.getElementById("otvet")
+
+function amount(input, input2) {
+    otvet.textContent = ""
+    let summa = Number(input.value) + Number(input2.value)
+    otvet.append(summa)
 }
 
-summa(bodyIndex)
+button.addEventListener('click', function() {
+    amount(input, input2)
+})
 
-function summa(index) {
-    bodyIndex = Number(bodyIndex.wight) + Number(bodyIndex.growth) * 2;
-    console.log("Ваш индекс тела = " + bodyIndex)
-}
+
 
 
 
